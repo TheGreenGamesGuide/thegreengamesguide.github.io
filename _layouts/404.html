@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{site.description}}">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- <link rel="stylesheet" href="./assets/css/simpleLightbox.min.css"> -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greengamesguide.com/read.html">
+    <meta property="og:title" content="{{site.title}}">
+    <meta property="og:description" content="{{site.description}}">
+    <meta property="og:image" content="https://greengamesguide.com/assets/images/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Logo of the Green Games Guide project">
+    <meta property="og:image:width" content="240">
+    <meta property="og:image:height" content="110">
+    <meta property="og:site_name" content="{{site.title}}">
+
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+  </head>
+
+  <body class="font-spline text-[15px]">
+
+    {% include nav.html %}
+
+    <div class="px-[25px] md:px-[120px] xl:px-[160px] pb-[600px]  md:pb-[320px] xl:pb-[560px] bg-yellow-main">
+      <h1 class="text-[40px] leading-[50px] pt-[13px] md:pt-[30px] xl:pt-[36px] md:text-[100px] md:leading-[110px] xl:text-[120px] xl:leading-[130px] font-bold">
+        Woops, 404...
+      </h1>
+
+      <div class="md:text-[32px] md:leading-[40px] xl:text-[40px] xl:leading-[50px] font-light pt-6 md:pt-[30px] xl:pt-16">
+        <b>This page does not exist, <br> use the menu to navigate away!</b>
+      </div>
+
+
+  </div>
+
+    </div>
+    
+
+    <footer class="px-[25px] md:px-[120px] xl:px-[160px]
+     h-[40px] md:h-[80px]
+      bg-pink-secondary 
+      text-[10px] font-bold md:text-base leading-[40px] md:leading-[80px]
+      flex flex-row justify-between md:justify-evenly
+      md:block">
+      {% include footer-content.html %}
+
+
+  </body>
+</html>

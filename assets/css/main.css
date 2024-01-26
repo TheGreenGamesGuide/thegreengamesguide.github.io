@@ -1,0 +1,148 @@
+---
+---
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+
+.imgWrap {
+    display: inline-block;
+}
+.imgWrap:hover {
+    background-image: url("../images/open.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    
+}
+.imgWrap:hover img {
+    visibility: hidden;
+}
+
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-Bold.eot');
+    src: url('../fonts/SplineSansMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-Bold.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-BoldItalic.eot');
+    src: url('../fonts/SplineSansMono-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-BoldItalic.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-Italic.eot');
+    src: url('../fonts/SplineSansMono-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-Italic.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-Light.eot');
+    src: url('../fonts/SplineSansMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-Light.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-Medium.eot');
+    src: url('../fonts/SplineSansMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-Medium.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-LightItalic.eot');
+    src: url('../fonts/SplineSansMono-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-LightItalic.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-Regular.eot');
+    src: url('../fonts/SplineSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-Regular.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-MediumItalic.eot');
+    src: url('../fonts/SplineSansMono-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-MediumItalic.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-SemiBold.eot');
+    src: url('../fonts/SplineSansMono-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-SemiBold.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'spline';
+    src: url('../fonts/SplineSansMono-SemiBoldItalic.eot');
+    src: url('../fonts/SplineSansMono-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SplineSansMono-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/SplineSansMono-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
